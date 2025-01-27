@@ -1,0 +1,383 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #000000;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(0,0,0,.2 );
+    color: #ea1538;
+    padding: 20px 0;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    list-style: none;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #00ff80;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #444;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    padding: 14px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+/*  thretre types DROP DOWN CODE  */
+.dropdown {
+    position: relative ;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cf3939;
+    min-width: 180px;
+    padding: 12px 16px;
+    z-index: 1;
+    margin-right: 80px;
+    justify-items: center;
+    text-align: center;
+  }
+  .dropdown-content a{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* TRENDING NOW SECTION  */
+#trend-title{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 80px;
+    font-weight: 900;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    display: flex;
+    margin-top: 20px;
+}
+.trending-box{
+    width: 100%;
+    height: 400px;
+    background-color: #575757;
+    display: flex;
+    padding-top: 50px;
+}
+.img-box{
+    width: 50%;
+    height: 300px;
+    background-color: #1e4d2893; 
+}
+.text-box{
+    width: 50%;
+    height: 300px;
+    background-color: #333;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.text-box div{
+    width: 200px;
+    height: 280px;
+    background-color: #868686;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+.text-box div:hover{
+    width: 200px;
+    height: 280px;
+    background-color: #00ff80;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.text-box img{
+    height: 228px;
+    width: 100%;
+    border-image: round;
+    border-radius: 10px;
+}
+.img-box h1{
+    color: white;
+    font-size: 42px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* <!-- PAKISTANI ARTIST SECTION  --> */
+#Pakistani-artist-title {
+    font-size: 50px;
+    font-weight: 900px;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.container{
+    background-color: #444;
+    width: 100%;
+    height: 1350px;
+    display: flex;
+   margin-top: 5px;
+}
+.Youtuber{
+    background-color: red;
+    height: 580px;
+    width: 150px;
+}
+.pakistani-artist{
+    width: 100%;
+    height: 1200px;
+    background-color: #333;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    row-gap: 1px;
+}
+.pakistani-artist div{
+    width: 160px;
+    margin-top: 30px;
+    height: 250px;
+    background-color: #868686;
+    margin-bottom: 1px;
+    border-radius: 25px;
+    transition: 1.1s;
+
+}
+.pakistani-artist div:hover{
+    width: 160px;
+    height: 250px;
+    background-color: #00ff80;
+    margin-bottom: 1px;
+    border-radius: 25px;
+
+}
+.pakistani-artist  img{
+    width: 140px;
+    height: 200px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 50%;
+    transition-duration: 1s;
+    
+}
+.pakistani-artist  img:hover{
+    width: 140px;
+    height: 200px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 20%;
+    
+}
+.pakistani-artist h1{
+    
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    transition: 1s;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+
+/* Indian artist */
+.container-2 {
+    background-color: #444;
+    width: 100%;
+    height: 900px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex; /* Change to flex for better alignment */
+    flex-wrap: wrap; /* Allow wrapping of content */
+    justify-content: space-between; /* Space the elements */
+}
+
+.banner {
+    width: 70%; /* Set width to 70% for the image grid */
+    height: 600px;
+    background-color: #333;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-2 {
+    width: 25%; /* Set width to 25% for banner-2 */
+    height: 600px; /* Match height of the grid */
+    margin-top: 0; /* Remove any top margin */
+}
+
+
+
+.banner div {
+    width: 200px;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner h3 {
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+
+.banner div{
+    width: 200px;
+    height: 250px;
+    background-color: #6b6b6b;
+    border-radius: 25px;
+    align-content: center;
+    justify-items: center;
+}
+#indian-title{
+    color: #444;
+    font-size: 82px;
+    text-align: center;
+    justify-items: center;
+}
+.banner img{
+    width: 170px;
+    height: 200px;
+    transition: 1s;
+    border-radius: 50%;
+
+
+   
+}
+.banner img:hover{
+    width: 170px;
+    height: 200px;
+    scale: 1.1;
+    filter: grayscale(100);
+    cursor: pointer;
+   
+}
+
+/* Services Section */
+.services {
+    background-color: #4dc9a467;
+    padding: 60px 0;
+    
+}
+
+.services h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services .service {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 0 15px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.services .service:hover {
+    transform: translateY(-10px);
+}
+
+.services .service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services .service p {
+    font-size: 16px;
+}
+.dropdown {
+    position: relative ;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cf3939;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+    margin-right: 80px;
+    justify-items: center;
+    text-align: center;
+  }
+  .dropdown-content a{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a:hover{
+    background-color: orange;
+    width: 115px ;
+  }
+

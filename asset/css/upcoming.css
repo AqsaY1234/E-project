@@ -1,0 +1,248 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #242222;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header Styles */
+header {
+  background-color: rgb(0,0,0,.2 );
+  color: #ea1538;
+  padding: 20px 0;
+  text-align: center;
+}
+header a{
+  text-decoration: none;
+  list-style: none;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #00ff80;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #444;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  padding: 14px 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #575757;
+}
+
+/*  thretre types DROP DOWN CODE  */
+.dropdown {
+  position: relative ;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cf3939;
+  min-width: 180px;
+  padding: 12px 16px;
+  z-index: 1;
+  margin-right: 80px;
+  justify-items: center;
+  text-align: center;
+}
+.dropdown-content a{
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* COMING SOON PROGRAM SECTION  */
+.main-container{
+  background-color: #242222;
+  width: 100%;
+  height: 100%;
+}
+.coming-up-box{
+  background-color: #5e5e5e;
+  width: 100%;
+  height: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+  margin-top: 60px;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 50px;
+  color: white;
+  margin-bottom: 200px;
+}
+.box div{
+  height: 220px;
+  width: 300px;
+  background-color: #3d3d3d;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  
+  border-radius: 15px;
+  text-align: center;
+}
+.box img{
+  height: 150px;
+  width: 300px;
+
+}
+
+.box h2{
+  text-align: center;
+  padding-left: 10px;
+  color: #ea1538;
+  font-weight: 500;
+}
+
+ /* NEW RELEASE PROGRAMS  */
+.main-container{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+section h1{
+  text-align: center;
+  font-size: 40px;
+  color: #00ff80;
+  margin-top: 50px;
+}
+.grid-1{
+  background-color: #3d3d3d;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.grid-1 div{
+  background-color: #ffffff;
+  height: 150px;
+  width: 200px;
+  cursor: pointer;
+  
+}
+
+.grid-1 img{
+  height: 150px;
+  width: 200px;
+  object-fit: fill;
+}
+.grid-1 img:hover{
+  height: 150px;
+  width: 200px;
+  object-fit: fill;
+  filter: grayscale(100%);
+  scale: 1.3;
+}
+#heading{
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  font-size: 50px;
+}
+/* Services Section */
+.services {
+  background-color: #4dc9a467;
+  padding: 60px 0;
+ margin-top: 150px;
+}
+
+.services h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services .service {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin: 0 15px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.services .service:hover {
+  transform: translateY(-10px);
+}
+
+.services .service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.services .service p {
+  font-size: 16px;
+}
+.dropdown {
+  position: relative ;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cf3939;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+  margin-right: 80px;
+  justify-items: center;
+  text-align: center;
+}
+.dropdown-content a{
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover{
+  background-color: orange;
+  width: 115px ;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/thretre-speak.css">
+    <link rel="stylesheet" href="asset/css/mediaQuery.css">
+    <link rel="stylesheet" href="asset/css/overflowing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Bungee+Spice&family=Galindo&family=Rubik+Glitch&family=Rubik+Puddles&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Bungee+Spice&family=Galindo&family=Rubik+Glitch&family=Rubik+Puddles&family=Slackey&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     <!-- Header Section -->
+     <header>
+        <h1><a href="index.html">COROLLY THEATRE</a></h1>
+       </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="ARTIST-GALLERY.HTML">Artist-Gallery</a>
+        <a href="Auditorium.html">Auditorium</a>
+        <a href="Thretre-speak.html">Theatre-Speak</a>
+        <a href="upcoming-show.html">Upcoming</a>
+        <div class="dropdown">
+            <a href="">
+                <span>THEATRE TYPES</span>
+            </a>
+            <div class="dropdown-content" style="border-radius: 0px 0px 5px 5px;">
+                <a href="HindiThretre.html">Hindi</a>
+                <a href="EnglishThretre.html">English</a>
+                <a href="urduThretre.html">Urdu</a>
+            </div>
+        </div>
+    </nav>
+
+ <!-- Hero Section -->
+ <section class="hero">
+    <div class="hero-text">
+        <h2 >Laughter is a universal language. Welcome to Theater Speaks!</h2>
+    </div>
+</section>
+<section>
+   
+
+<!-- Stand-Up Comedians Section -->
+<section id="comedians" class="comedian-section">
+    <div class="container">
+        <h2 style="font-size: larger; color: white;">Featured Stand-Up Comedians</h2>
+        <div class="comedian-cards">
+            <!-- Comedian Card 1 -->
+            <div class="comedian-card">
+                <img src="asset/images/Theater Speaks/hq720.jpg" alt="Munawar Faruqui">
+                <h3 style="color: black;">Munawar Faruqui</h3>
+                <p>"Munawar Faruqui is an Indian stand-up comedian, rapper, and writer known for his observational humor and satirical takes on social, cultural, and political issues"</p>
+                <button class="more-info-btn" onclick="openModal('Munawar Faruqui')">More Info</button>
+            </div>
+
+            <!-- Comedian Card 2 -->
+            <div class="comedian-card">
+                <img src="asset/images/Theater Speaks/Vir Das.jpg" alt="Vir Das">
+                <h3 style="color: black;">Vir Das</h3>
+                <p>"
+                    Vir Das is a renowned Indian stand-up comedian, actor, and writer, known for his sharp wit and global appeal"</p>
+                <button class="more-info-btn" onclick="openModal('Vir Das')">More Info</button>
+            </div>
+            
+            <!-- Comedian Card 3 -->
+            <div class="comedian-card">
+                <img src="asset/images/Theater Speaks/Zakir Khan.jpg" alt="Zakir Khan">
+                <h3 style="color: black;">Zakir Khan</h3>
+                <p>"Zakir Khan is one of India's most popular stand-up comedians, known for his relatable humor and storytelling style."</p>
+                <button class="more-info-btn" onclick="openModal('Zakir Khan')">More Info</button>
+            </div>
+            <!-- Comedian Card 4 -->
+            <div class="comedian-card">
+                <img src="asset/images/Theater Speaks/Kenny Sebastian.jpg" alt="Kenny Sebastian">
+                <h3 style="color: black;">Kenny Sebastian</h3>
+                <p>"Kenny Sebastian is a renowned Indian stand-up comedian, musician, and filmmaker, known for his clean, relatable humor and quirky observations on everyday life"</p>
+                <button class="more-info-btn" onclick="openModal('Kenny Sebastian')">More Info</button>
+            </div>
+
+            <!-- Comedian Card 5 -->
+            <div class="comedian-card">
+                <img src="asset/images/Theater Speaks/Atul Khatri.webp" alt="Atul Khatri">
+                <h3 style="color: black;">Atul Khatri</h3>
+                <p>"Atul Khatri is a renowned Indian stand-up comedian and former businessman who made a successful transition from the corporate world to comedy"</p>
+                <button class="more-info-btn" onclick="openModal('Atul Khatri')">More Info</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Reviews Section -->
+<section id="reviews" class="reviews-section">
+    <div class="container">
+        <h2>Reviews</h2>
+        <div class="reviews-carousel">
+            <p>"Kevin Hart's stand-up is the perfect combination of humor and heart. His ability to laugh at himself resonates with audiences on a personal level."</p>
+            <p>- Michael Smith, Comedy Lover</p>
+            <p>★★★★☆</p>
+        </div>
+    </div>
+</section>
+ <!-- Modal for Comedian Info -->
+ <div id="comedian-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <h2 id="comedian-name"></h2>
+        <p id="comedian-bio"></p>
+        <p id="comedian-career"></p>
+    </div>
+</div>
+ <!-- Footer Section -->
+ <footer>
+    <p>&copy; 2025 COROLLY THEATRE All rights reserved.</p>
+</footer>
+<script src="asset/javascript/Thretre-speak.js"></script>
+
+</body>
+</html>

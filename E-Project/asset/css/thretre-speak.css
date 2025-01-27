@@ -1,0 +1,272 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #242222;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(0,0,0,.2 );
+    color: #00FF80;
+    padding: 20px 0;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    list-style: none;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #444;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    padding: 14px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+/*  thretre types DROP DOWN CODE  */
+.dropdown {
+    position: relative ;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cf3939;
+    min-width: 180px;
+    padding: 12px 16px;
+    z-index: 1;
+    margin-right: 80px;
+    justify-items: center;
+    text-align: center;
+  }
+  .dropdown-content a{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #f4a261;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e76f51;
+}
+
+
+/* Hero Section */
+.CONTAINER h2{
+    color: white;
+}
+.hero {
+    background-image: url('images/comedy-stage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text h2 {
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.cta-btn{
+    padding: 10px 20px;
+    margin-left: 570px;
+    background-color: #FFD700;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+ /* Hover effect with scaling */
+ button:hover {
+    background-color: #00FF80; /* Darker red */
+    transform: scale(1.1); /* Increase the size */
+}
+
+/* Stand-Up Comedians Section */
+.comedian-section {
+    padding: 50px 0;
+    text-align: center;
+}
+.comedian-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.comedian-card {
+    background-color: #646464;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.comedian-card:hover {
+    transform: scale(1.05);
+}
+.comedian-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.more-info-btn {
+    padding: 10px 15px;
+    background-color: #FFD700;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.modal-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+    background-color: #333;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    color: white;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+
+/* Reviews Section */
+.reviews-section {
+    padding: 50px 0;
+    background-color: #4dc9a4;
+    text-align: center;
+    color: #333;
+}
+.reviews-carousel {
+    display: block;
+    margin: 20px auto;
+    font-size: 1.2em;
+}
+
+
+.container{
+    padding-right: 50px;
+}
+.hero-text h2{
+    color: #FFD700;
+    font-family: "Bowlby One", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}  
+
+.dropdown {
+    position: relative ;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cf3939;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+    margin-right: 80px;
+    justify-items: center;
+    text-align: center;
+  }
+  .dropdown-content a{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a:hover{
+    background-color: orange;
+    width: 115px ;
+  }
